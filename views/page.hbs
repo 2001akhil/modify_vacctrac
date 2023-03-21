@@ -1,0 +1,105 @@
+{{!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="stylesheets/page.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   <h1> {{#if data}}{{#each data}}{{this.name}}{{/each}}{{else}}Account{{/if}}</h1>
+
+    
+
+    <img src="Untitled_design__1_-removebg-preview.png">
+    <form action="/page" method="post">
+        <table cellspacing="200px" cellpadding="10px">
+            <tr width="70px">
+                <td><button class="btn1" onclick="window.location.href = 'next.hbs';">
+                        <h2>&#43;<a href="/front"> ADD NEW FIELDS</a></h2>
+                    </button></td>
+                <td><button class="btn2" onclick="window.location.href = 'historyPage.html';">
+                        <h2>HISTORY </h2>
+                    </button>
+                </td>
+            </tr>
+            <tr width="70px">
+                <td><button class="btn3" onclick="window.location.href = 'userdetails.html';">
+                        <h2><a href="/user">USER DETAILS </a></h2>
+                    </button></td>
+                <td><button class="btn4" onclick="window.location.href = '/logout';">
+                        <h2><a href="/logout">LOG OUT</a></h2>
+                    </button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html> --}}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/page.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="sidebar">
+        <!-- <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">CodingLab</span>
+    </div> -->
+        <ul class="nav-links">
+            <li>
+                <a href="/front" class="active">
+                    <i class='bx bx-message-square-add'></i>
+                    <span class="links_name">New Booking</span>
+                </a>
+            </li>
+            <li>
+                <a href="/history">
+                    <i class='bx bx-history'></i>
+                    <span class="links_name">History</span>
+                </a>
+            </li>
+            <li>
+                <a href="/user">
+                    <i class='bx bxs-user'></i>
+                    <span class="links_name">User Details</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                    <i class='bx bx-info-circle'></i>
+                    <span class="links_name">About us</span>
+                </a>
+            </li>
+            <li>
+                <a href="/logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    <span class="links_name">Log out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+
+        <div class="home-content">
+            <div class="overview-boxes">
+                <div class="box">
+                    <span class="home">
+                        <h2>
+                            Welcome!!<br><br>
+                            Team Vacctrac</h2>
+                    </span>
+                </div>
+    </section>
+</body>
+
+</html>
